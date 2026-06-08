@@ -1,4 +1,4 @@
-fromt datetime import date, timedelta
+from datetime import date, timedelta
 
 # Continue running program until user presses enter.
 while continue_tracking == "y":
@@ -56,7 +56,7 @@ while continue_tracking == "y":
     print(
         f"Tracking period: "
         f"{start_date.strftime('%B %d, %Y')}"
-        f"to {end_date.strftime(%B %d, %Y)}"
+        f"to {end_date.strftime('%B %d, %Y')}"
     )
     print(f"Completed {successful_days} out of {total_days} days.")
     print(f"Success rate: {success_rate:2f}%")
